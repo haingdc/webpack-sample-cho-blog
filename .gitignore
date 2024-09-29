@@ -11,3 +11,5 @@
 
 #!.yarn/cache
 .pnp.*
+analyze
+dist
