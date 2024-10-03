@@ -7,9 +7,31 @@
     "about:clean": "echo 'clean yarn cache in case install packages fail'; yarn cache clean"
   },
   "devDependencies": {
+    "@statoscope/webpack-model": "^5.28.2",
     "@statoscope/webpack-plugin": "^5.28.2",
+    "@statoscope/webpack-ui": "^5.28.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "glob": "^11.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "http-server": "^14.1.1",
+    "readline": "^1.3.0",
     "typescript": "^5.6.2",
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependenciesMeta": {
+    "@statoscope/webpack-model@5.28.2": {
+      "unplugged": true
+    },
+    "@statoscope/webpack-plugin@5.28.2": {
+      "unplugged": true
+    },
+    "@statoscope/webpack-ui@5.28.2": {
+      "unplugged": true
+    }
+  },
+  "dependencies": {
+    "@hn/one-true-date": "npm:@jsr/hn__one-true-date@^0.1.1",
+    "@hn/one-true-date-verpa-xi-khoi": "npm:@jsr/hn__one-true-date-verpa-xi-khoi@^0.1.1"
   }
 }
